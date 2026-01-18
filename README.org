@@ -1,0 +1,7 @@
+#+title: Readme
+
+* Emacs launcher
+
+Based on: [[https://github.com/joshuablais/nixos-config/blob/master/dotfiles/hypr/scripts/emacs-launcher.go]]
+
+Allows me to have universl bindings for certain Emacs commands
