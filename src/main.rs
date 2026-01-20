@@ -18,7 +18,7 @@ struct Window {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Layout {
-    pos_in_scrolling_layout: [u32; 2],
+    pos_in_scrolling_layout: Option<[u32; 2]>,
     tile_size: [f32; 2],
     window_size: [u32; 2],
     tile_pos_in_workspace_view: Option<u32>,
